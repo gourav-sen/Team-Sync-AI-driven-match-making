@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+motor
+pydantic
+sentence-transformers
+scikit-learn
+numpy
+python-multipart
