@@ -63,6 +63,8 @@ def find_user_query(identifier: str):
 # Health & Root Endpoints
 # ---------------------------------------------------------
 @app.get("/")
+@app.get("/api")
+@app.get("/api/")
 async def root():
     return {
         "status": "online",
