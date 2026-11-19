@@ -1,14 +1,12 @@
 {
   "name": "teamsync-project",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "TeamSync AI Innovation Matchmaker Platform",
   "scripts": {
-    "start": "node start.js",
-    "dev": "node start.js",
-    "dev:backend": "node scripts/run-backend.js",
-    "dev:frontend": "node scripts/run-frontend.js",
-    "seed": "node scripts/seed-db.js",
-    "build": "npm --prefix TeamSync_Complete_Project/frontend run build"
+    "build": "cd frontend && npm install && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "preview": "cd frontend && npm run preview",
+    "deploy": "cd frontend && npx wrangler pages deploy dist --project-name=teamsync-ai"
   }
 }
