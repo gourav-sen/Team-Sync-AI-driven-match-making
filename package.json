@@ -1,0 +1,10 @@
+{
+  "name": "teamsync-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TeamSync AI Innovation Matchmaker Platform",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  }
+}
